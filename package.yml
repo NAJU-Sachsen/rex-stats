@@ -1,0 +1,16 @@
+package: naju_stats
+version: '0.0.1'
+author: NAJU Sachsen
+supportpage: https://github.com/NAJU-Sachsen/rex-stats
+requires:
+  redaxo: '^5.10'
+  php: '>=7.1'
+page:
+  title: 'Statistiken'
+  icon: rex-icon fa-bar-chart
+  perm: admin
+  subpages:
+    stats:
+      title: 'Statistiken'
+    tokens:
+      title: 'Analyse-Tokens'
