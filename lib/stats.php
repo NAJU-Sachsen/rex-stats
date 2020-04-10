@@ -60,7 +60,7 @@ class naju_stats
             select timestamp, page, referer
             from naju_visitor_stat
             $where_clause
-        EOSQL;
+EOSQL;
 
         return $sql->setQuery($query, $params)->getArray();
     }
