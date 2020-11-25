@@ -5,7 +5,7 @@ $func = rex_request('func', 'string', '');
 $msg = '';
 
 if ($func === 'stats_clear') {
-    rex_sql::factory()->setTable('naju_stats')->delete();
+    rex_sql::factory()->setTable('naju_visitor_stats')->delete();
     $msg .= '<div class="alert alert-info">Statistiken wurden zurückgesetzt</div>';
 }
 
