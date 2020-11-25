@@ -14,3 +14,5 @@ page:
       title: 'Statistiken'
     tokens:
       title: 'Analyse-Tokens'
+    settings:
+      title: 'Einstellungen'
